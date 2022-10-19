@@ -1,0 +1,8 @@
+[[CURRENCIES]]
+code = "TFC"
+conditions = "There will only ever be 1.5 billion TFC."
+desc = "Token powering the TheFutbolApp community http://thefutbolapp.com"
+display_decimals = 7
+image = "https://thefutbolcoin.io/.well-known/tfa.png"
+issuer = "GDS3XDJAA4VY6MJYASIGSIMPHZ7AQNZ54RKLWT7MWCOU5YKYEVCNLVS3"
+name = "TheFutbolCoin"

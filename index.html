@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TFC - TheFutbolCoin</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar main fixed-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand ml-3" href="#">
+      <h2 class="font-weight-bold">TFC</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mr-auto"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item mr-3 active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#ecosystem">Ecosystem</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#howto">How To</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#wallet">Wallet</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#advisors">Advisors</a>
+        </li>
+      </ul>
+      <button class="btn btn-light rounded-pill my-3" style="margin-right:20px;"><a href="./assets/docs/TFC_whitepaper.pdf" class="font-weight-bold text-success px-4">Whitepaper</a></button>
+      <button class="btn btn-light rounded-pill my-3"><a href="./assets/docs/TFA-TFC-PitchDeck.pdf" class="font-weight-bold text-success px-4">PitchDeck</a></button>
+
+    </div>
+  </nav>
+
+  <div class="jumbotron bg-dark text-white rounded-0 mb-0">
+    <div class="row justify-content-center">
+      <div class="text-center col-md-5 col-xs-12">
+        <img alt="tfc-logo" src="assets/images/tfc_logo.png" width="170" style="filter: drop-shadow(0px 0px 5px rgba(86, 255, 115, 1));">
+        <h1 class="display-4 my-4">
+          <span class="font-weight-bold text-success">T</span>he<span class="font-weight-bold text-success">F</span>utbol</span><span class="font-weight-bold text-success">C</span>oin
+        </h1>
+        <p class="lead">Creating a transactional framework and digital economy for the worldwide football community.</p>
+        <iframe width="100%" height="345" style="border:none;"src="https://www.youtube.com/embed/AQCq7ekgPBE?autoplay=1&controls=0">
+        </iframe>
+        <a class="btn btn-success rounded-pill btn-lg my-4 py-3" href="./assets/docs/TFC_whitepaper.pdf" role="button">
+          <span class="px-5">Whitepaper</span>
+        </a>
+        <a class="btn btn-success rounded-pill btn-lg my-4 py-3" href="./assets/docs/TFA-TFC-PitchDeck.pdf" role="button">
+          <span class="px-5">PitchDeck</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="text-center col-md-5 col-xs-12">
+        <p class="lead">TFC trades for BTC and ETH at</p>
+        <a href="https://go.latoken.com/se" target="_blank"><img alt="latoken-logo" src="assets/images/latoken.png" width="170" style="filter: drop-shadow(0px 0px 5px rgba(86, 255, 115, 1));"></a>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="text-center col-md-5 col-xs-12">
+        <p class="lead"></p>
+        <a href="https://interstellar.exchange/app/#/trade/guest/TFC/GDS3XDJAA4VY6MJYASIGSIMPHZ7AQNZ54RKLWT7MWCOU5YKYEVCNLVS3/XLM/native" target="_blank"><img alt="interstellar-logo" src="assets/images/interstellar.png" width="170" style="filter: drop-shadow(0px 0px 5px rgba(86, 255, 115, 1));"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-dark text-center my-0">
+    <h5 class="text-white py-4">
+      <span>Join our <b>Telegram</b> group</span><br>
+      <!-- data-toggle="modal" data-target="#mailchimpModal" -->
+      <a href="https://t.me/tfc_official" target="_blank" class="btn btn-info px-4 py-2 ml-2 mt-3 align-middle">
+        <i class="fab fa-telegram mr-2"></i> Join now
+      </a>
+    </h5>
+  </div>
+
+  <div id="about" class="container my-5">
+    <div class="col-xs-12">
+      <h5>TheFutbolCoin</h5>
+    </div>
+    <div class="col-md-10 col-xs-12 my-5">
+      <p style="font-size: 2rem;">
+          <b>TheFutbolApp</b> by pandaHAUS is an ecosystem of powerful features for the worldwide football community.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-5 col-xs-12 mb-5">
+        <h5>Through its implementation of <b>TheFutbolCoin TFC</b> a powerful digital economy is created.</h5>
+        <p class="lead mt-4"><span class="font-weight-bold">TFA</span> is the first quality social network for football fans around the world. We transform each Club into a vibrant social network for their fans with, group discussions, social sharing, predictions games and much more.</p>
+
+        <p class="lead">In <span class="font-weight-bold">TFA</span>, likes on social posts are spendable points, so the wealth of the network is shared with its participants. Points can also be exchanged for the <span class="font-weight-bold">TFC token</span> (TheFutbolCoin). This token is accepted by merchants around the world in limited amounts for payment in full for goods and services, food and drink. Participating Clubs also accept TFC for purchase of merchandise.</p>
+
+        <h5>Join <span class="font-weight-bold">TFA</span> today and experience the finest app to share the highs and lows of football with likeminded people.</h5>
+      </div>
+      <div class="text-right col-md-7 col-xs-12">
+        <img src="assets/images/screens/combined.png" width="550" class="img-fluid parallax" style="margin-top: -50px;">
+      </div>
+    </div>
+    <div id="ecosystem" class="m-0 p-0"></div>
+  </div>
+
+  <div class="jumbotron bg-dark text-center text-white rounded-0 mb-0">
+    <h2>Our Ecosystem:<br><span class="text-success">Features and Benefits</span></h2>
+    <div class="row justify-content-center mt-5">
+      <div class="iconModal col-md-2 col-xs-12">
+        <a href="#" class="text-white" data-toggle="modal" data-target="#fansModal">
+          <i class="fas fa-6x fa-users text-success my-3"></i>
+          <h3>Fans</h3>
+          <p>Socially interact with other fans and players from clubs they follow.</p>
+          <button class="btn btn-success mb-3">Learn more</button>
+        </a>
+      </div>
+      <div class="iconModal col-md-2 col-xs-12">
+          <a href="#" class="text-white" data-toggle="modal" data-target="#coachesModal">
+          <i class="fas fa-6x fa-user-secret text-warning my-3"></i>
+          <h3>Coaches</h3>
+          <p>Player-coach discussion room within the app with additional benefits.</p>
+          <button class="btn btn-success mb-3">Learn more</button>
+        </a>
+      </div>
+      <div class="iconModal col-md-2 col-xs-12">
+          <a href="#" class="text-white" data-toggle="modal" data-target="#playersModal">
+          <i class="fas fa-6x fa-running text-success my-3"></i>
+          <h3>Players</h3>
+          <p>Shows highlights, accomplishments and statistics of the players.</p>
+          <button class="btn btn-success mb-3">Learn more</button>
+        </a>
+      </div>
+      <div class="iconModal col-md-2 col-xs-12">
+          <a href="#" class="text-white" data-toggle="modal" data-target="#clubsModal">
+          <i class="fas fa-6x fa-tshirt text-warning my-3"></i>
+          <h3>Clubs</h3>
+          <p>Clubs get ad space that they can sell to their large advertisers.</p>
+          <button class="btn btn-success mb-3">Learn more</button>
+        </a>
+      </div>
+      <div class="iconModal col-md-2 col-xs-12">
+          <a href="#" class="text-white" data-toggle="modal" data-target="#advertisersModal">
+          <i class="fas fa-6x fa-user-tie text-success my-3"></i>
+          <h3>Advertisers</h3>
+          <p>Reach fans of specific football clubs in specific geographies.</p>
+          <button class="btn btn-success mb-3">Learn more</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section id="howto">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="bg-dark col-12 py-5">
+          <h2 class="text-center text-white">How to get TFC tokens?</h2>
+          <hr class="bg-success" width="200" style="height: 3px;">
+        </div>
+        <div class="col-xs-12 bg-dark p-0">
+          <img src="assets/images/howto.jpg" class="card-img-top img-fluid">
+        </div>
+        <div class="text-center align-middle col-md-4 col-xs-12 py-5 bg-success">
+          <i class="far fa-6x fa-smile text-white mb-4 animate"></i>
+          <h4 class="font-weight-bold text-uppercase text-white">1. Inviting people</h4>
+          <p class="card-text font-weight-bold">Invite your friends into the app.</p>
+        </div>
+        <div class="text-center bg-dark text-white col-md-4 col-xs-12 py-5">
+          <div class="my-3">
+            <i class="fas fa-6x fa-dollar-sign text-warning mb-4 animate"></i>
+            <h4 class="font-weight-bold text-uppercase text-warning">2. User growth pool</h4>
+            <p class="card-text">Providing value to community through useful posts, running a chat room or making winning predictions.</p>
+          </div>
+        </div>
+        <div class="text-center col-md-4 col-xs-12 py-5 bg-success">
+          <div class="my-3">
+            <i class="fas fa-6x fa-store text-white mb-4 animate"></i>
+            <h4 class="font-weight-bold text-uppercase text-white">3. Store listings</h4>
+            <p class="card-text font-weight-bold">Accept TFC at your place of business.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="margin">
+    <div class="container">
+      <h2 class="text-center">How will TFC be used<br>in
+          TheFutbolApp ecosystem?</h2>
+      <hr class="bg-success" width="200" style="margin-bottom: 80px;height: 3px;">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <p class="lead bullet p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            <b>To buy goods in our store using TFC at significant discounts. Advertisers provide goods to the store to get publicity and tokens.</b>
+          </p>
+          <p class="lead bullet bg-light p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            To buy tickets with one touch instantly electronically delivered inside TheFutbolApp.
+          </p>
+          <p class="lead bullet p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            <b>To advertise to TheFutbolApp community advertisers must pay for ads with TFC.</b>
+          </p>
+          <p class="lead bullet bg-light p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            Users can donate TFC to young athletes via our crowdfunding within TheFutbolApp.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="lead bullet bg-light p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            <b>Giving amateur football teams an easy way to collect fees and dues from players or their parents.</b>
+          </p>
+          <p class="lead bullet p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            Giving football clubs and instant one touch way to sell tickets to games and merchandise.
+          </p>
+          <p class="lead bullet bg-light p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            Allowing all participants in the community the power of peer to peer token exchange.
+          </p>
+          <p class="lead bullet p-3">
+            <i class="fas fa-chevron-right text-success mr-3"></i>
+            <b>Giving businesses a great way to attract new customers from our TFA user base by listing themselves in our TFC wallet and accepting a limited number of TFC per month in exchange for goods and services.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="wallet" class="m-0 p-0"></div>
+  </section>
+
+  <section class="container my-4">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <img src="assets/images/screens/wallet.jpg" class="img-fluid shadow parallax" width="400">
+      </div>
+      <div class="col-md-5 col-xs-12 mt-5">
+        <h2 class="text-center">Our In-App Wallet</h2>
+        <hr class="bg-success" width="200" style="margin-bottom: 80px;height: 3px;">
+
+        <p class="lead bullet p-3">
+          <i class="fas fa-chevron-right text-success mr-3"></i>
+          <b>Every user of TheFutbolApp is automatically given a secure TFC wallet.</b>
+        </p>
+        <p class="lead bullet bg-light p-3">
+          <i class="fas fa-chevron-right text-success mr-3"></i>
+          This wallet has dual factor authentication.
+        </p>
+        <p class="lead bullet p-3">
+          <i class="fas fa-chevron-right text-success mr-3"></i>
+          <b>Each validated user gets 1 TFC for activating their wallet.</b>
+        </p>
+        <p class="lead bullet bg-light p-3">
+          <i class="fas fa-chevron-right text-success mr-3"></i>
+          Wallet activation requires that the user validate via mobile or social media.
+        </p>
+        <p class="lead bullet p-3">
+          <i class="fas fa-chevron-right text-success mr-3"></i>
+          <b>TFC can be easily sent and received within the app or to outside Stellar wallets.</b>
+        </p>
+      </div>
+    </div>
+    <div id="team" class="m-0 p-0"></div>
+  </section>
+
+  <section class="py-5 bg-dark">
+    <div class="container my-5 our-team">
+      <h2 class="text-center text-white mt-5">Our team</h2>
+      <hr class="bg-success" width="200" style="margin-bottom: 80px;height: 3px;">
+
+      <div class="card-deck">
+        <div class="card mb-5">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="card-img-top member"><img src="assets/images/team/george.png"/></div>
+              <div class="card-header bg-dark">
+                <h4 class="card-title text-center text-white">George Kafkarkou</h4>
+                <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Chairman and co-founder</h6>
+                <p class="card-text text-white">
+                  George has more than 30 years experience in the software industry <br>
+                  <button class="btn btn-success mt-2">Read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="card-body bg-dark">
+                <p class="card-text text-left">George has more than 30 years experience in the software industry. Executive and General Management leadership positions in multiple geographies, full P&L responsibility, strategy, entrepreneurial and creative spirit, broad RTM experience (VARs, Distribution, OEMs, Direct, SIs etc.), Sales and Marketing Management, Field Sales, Engineering, Support and QA.</p>
+                <a href="https://www.linkedin.com/in/george-kafkarkou-7812aa/">
+                  <i class="fab fa-2x fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-5">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="card-img-top member"><img alt="Team member" src="assets/images/team/steve.png"/></div>
+              <div class="card-header bg-dark">
+                <h4 class="card-title text-center text-white">Steve Van Zutphen</h4>
+                <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">CEO and co-founder</h6>
+                <p class="card-text text-white">
+                  Steve is a musician, lawyer, product designer and system architect <br>
+                  <button class="btn btn-success mt-2">Read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="card-body bg-dark">
+                <p class="card-text text-left">Steve is a musician, lawyer, product designer and system architect. He is a University of Maryland graduate and resides in Cyprus with his wife and children. He is the data architect and founder of the Converged Object Relationship Engine (CORE), a sophisticated data engine with a logical data model based on the geometry of platonic solids and multiple patent holder.</p>
+                <a href="https://www.linkedin.com/in/steve-van-zutphen-924955/">
+                  <i class="fab fa-2x fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="card mb-5">-->
+              <!--<div class="flip-card-inner">-->
+                  <!--<div class="flip-card-front">-->
+                      <!--<div class="card-img-top member"><img alt="Team member" src="assets/images/team/lee.jpg"/></div>-->
+                      <!--<div class="card-header bg-dark">-->
+                          <!--<h4 class="card-title text-center text-white">Shoong Lim Lee, James</h4>-->
+                          <!--<h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">CFO</h6>-->
+                          <!--<p class="card-text text-white">-->
+                              <!--Mr. Shoong Lim Lee, James, has been the Managing Director of AMG <br>-->
+                              <!--<button class="btn btn-success mt-2">Read more</button>-->
+                          <!--</p>-->
+                      <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="flip-card-back">-->
+                      <!--<div class="card-body bg-dark">-->
+                          <!--<p class="text-left"><small class="card-text">Mr. Shoong Lim Lee, James, has been the Managing Director of AMG since August of 2005. Mr. Lee has been the President at AMG Bioenergy Resources Holdings Ltd. since April 26, 2010 and also serves as its Managing Director. Mr. Lim is responsible for carrying out the strategic plans and policies as established by the board of directors and oversees the day to day operations of AMG. Mr. Lee was the Founder and Managing Director of AMG Capital Private Limited since June 2002. Mr. Lee was an Assistant Vice President of ABN AMRO Bank Group ("ABN") from October 1999 to March 2001 and an Assistant Vice President of HSBC Investment Bank P/C ("HSBC IB") in Singapore. Mr. Lim is a full time employee of AMG and devotes 100% of his time to AMG. He has been a Director of AMG Bioenergy Resources Holdings Ltd. since April 26, 2010. Mr. Lee received a Bachelor of Accountancy from Nanyang Technological University in 1993.</small></p>-->
+                          <!--&lt;!&ndash; <a href="">-->
+                            <!--<i class="fab fa-2x fa-linkedin"></i>-->
+                          <!--</a> &ndash;&gt;-->
+                      <!--</div>-->
+                  <!--</div>-->
+              <!--</div>-->
+          <!--</div>-->
+      </div>
+
+        <!--<div class="card-deck">
+
+          <div class="card mb-5">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/clarke.png"/></div>
+                <div class="card-header bg-dark">
+                  <h4 class="card-title text-center text-white">Adam Clarke</h4>
+                  <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">COO</h6>
+                  <p class="card-text text-white">
+                    Adam is a co-founder and managing director of EMIDR Ltd, a risk advisory firm<br>
+                    <button class="btn btn-success mt-2">Read more</button>
+                  </p>
+                </div>
+              </div>
+              <div class="flip-card-back bg-dark">
+                <div class="card-body">
+                  <p class="card-text text-left"><small>
+                    Adam is a co-founder and managing director of EMIDR Ltd, a risk advisory firm specializing in corporate and government level investigations, asset recovery and cyber security.
+                    <ul class="text-left pl-2">
+                      <li>Prior to starting EMIDR, Adam was a consultant to financial advisory firms in New York and helped early develop of KYC/AML protocols for one of the top crytocurrency exchanges.</li>
+                      <li>Adam was also a director and officer of a listed oil & gas company, focusing on budgeting, financing and joint venture structures.</li>
+                      <li>Adam has extensive corporate financing and analytical experience. He was a former Senior Managing Director of Bear Stearns specializing in energy related matters. He has also held senior positions with Swiss Bank Corporation, SBC Warburg and Nomura International.</li>
+                    </ul></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+      </div>-->
+
+      <div class="card-deck">
+          <div class="card mb-5">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <div class="card-img-top member"><img alt="Team member" src="assets/images/team/john.jpg"/></div>
+                      <div class="card-header bg-dark">
+                          <h4 class="card-title text-center text-white">John Binns</h4>
+                          <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">VP, Product Manager</h6>
+                          <p class="card-text text-white">
+                              Experienced in commercial software product development with technical<br>
+                              <button class="btn btn-success mt-2">Read more</button>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="flip-card-back">
+                      <div class="card-body bg-dark">
+                          <p class="card-text text-left">Experienced in commercial software product development with technical leadership and senior management of software engineering, quality assurance, product management, technical support and consulting. My experience includes startups and participating in a successful IPO. John also has 20+ years experience in Artificial Intelligence, and was a co-founder of an AI company.</p>
+                          <a href="https://www.linkedin.com/in/johnbinns/">
+                              <i class="fab fa-2x fa-linkedin"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        <div class="card mb-5">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-img-top member"><img alt="Team member" src="assets/images/team/grigoris.jpg"/></div>
+              <div class="card-header bg-dark">
+                <h4 class="card-title text-center text-white">Grigoris Yioutanis</h4>
+                <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Full Stack Engineer</h6>
+                <p class="card-text text-white">
+                  Grigoris is a senior full stack developer with significant expertise in java<br>
+                  <button class="btn btn-success mt-2">Read more</button>
+                </p>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="card-body bg-dark">
+                <p class="card-text text-left">Grigoris is a senior full stack developer with significant expertise in java, API development, system design, Android development and team management. He resides in Cyprus with his wife and 3 children. He has been lead project engineer on over a dozen projects in the last 10 years.</p>
+                <a href="https://www.linkedin.com/in/grigoris-yioutanis-368b9699/">
+                  <i class="fab fa-2x fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="card mb-5">-->
+          <!--<div class="flip-card-inner">-->
+            <!--<div class="flip-card-front">-->
+              <!--<div class="card-img-top member"><img alt="Team member" src="assets/images/team/armands.jpg"/></div>-->
+              <!--<div class="card-header bg-dark">-->
+                <!--<h4 class="card-title text-center text-white">Armands Graube</h4>-->
+                <!--<h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Full Stack Engineer</h6>-->
+                <!--<p class="card-text text-white">-->
+                    <!--Over the years I have acquired extensive knowledge of different java and related<br>-->
+                  <!--<button class="btn btn-success mt-2">Read more</button>-->
+                <!--</p>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="flip-card-back">-->
+              <!--<div class="card-body bg-dark">-->
+                <!--<p class="card-text text-left">Over the years I have acquired extensive knowledge of different java and related open source tools, libraries and servers. I've been involved in all of the system development phases – analysis, development, testing, optimization as well as application deployment and maintenance.</p>-->
+                <!--<a href="https://www.linkedin.com/in/armands-graube-80507aba/">-->
+                  <!--<i class="fab fa-2x fa-linkedin"></i>-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+      </div>
+    </div>
+    <div id="advisors" class="m-0 p-0"></div>
+  </section>
+
+  <section class="py-5 bg-dark">
+    <div class="container my-5">
+    <h2 class="text-center text-white mt-5">Our advisors</h2>
+    <hr class="bg-success" width="200" style="margin-bottom: 80px;height: 3px;">
+
+    <div class="card-deck">
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/jesper.jpg"/></div>
+            <div class="card-header bg-dark text-center">
+              <h4 class="card-title text-white">Jesper Fredberg</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">_</h6>
+              <p class="card-text text-white">
+                Jesper is a UEFA Pro License holder, former Head Coach of AGF Fodbold and<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back bg-dark">
+            <div class="card-body bg-dark">
+              <p class="card-text text-left">Jesper is a UEFA Pro License holder, former Head Coach of AGF Fodbold and current Technical Director of AC Omonia. Jesper was former auditor at Double PASS Ltd., a World Leading Company in Club and Talent Development. He brings a wealth of community building talent to the team.</p>
+              <a href="https://www.linkedin.com/in/jesperfredberg">
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/judan.jpg"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Judan Ali</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Brand Ambassador</h6>
+              <p class="card-text text-white">
+                Judan Ali, a former professional footballer for Arsenal F.C. a Barcelona Scholar<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back bg-dark">
+            <div class="card-body">
+              <p class="card-text text-left"><small>Judan Ali, a former professional footballer for Arsenal F.C. a Barcelona Scholar, former Head of Elite Player Development of the Chinese Taipei National Team, Coach at the 2 top clubs in Hong Kong, Kitchee and Eastern SC. Head Coach of the Indonesian Army team and Technical Director of Persela Lamongan in the Indonesian Super League. Judan is the first professional football coach to hold the EPPP (Elite Player Performance Plan) coaching certification outside of England. Judan Ali has proven time and time again that you can with a minimum financial contribution turn average footballers into "World Class Talent".</small></p>
+              <a href="https://www.linkedin.com/in/judan-ali-7876b8151/">
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/kwok.png"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Peter Kwok</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Economic Advisor</h6>
+              <p class="card-text text-white">
+                Economics at Trinity College Cambridge University 1971 (Scholarship), President<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back bg-dark">
+            <div class="card-body">
+              <p class="card-text"><small>
+                <ul class="text-left pl-2">
+                  <li>Economics at Trinity College Cambridge University 1971 (Scholarship), President of Cambridge University Malaysia Singapore Association</li>
+                  <li>Military Service then Ministry of Trade and Industry, (Singapore), Economic Planning and Trade Negotiations. MBA (London Business School). Senior positions in Courtaulds International Paint, Memorex Corporation, Times Publishing, and Far East Group Hong Kong.</li>
+                  <li>Businessman and Private Investor. Property Development, Ready Mixed Concrete, Granite Quarrying, Gold Mining, Building Materials, Precision Engineering, Media, Technology. Corporate/Strategy Advisory. Portfolio Management of Family Funds.</li>
+                  <li>Countries of business interest: Singapore, Malaysia, China, Vietnam, Myanmar, Central Asia</li>
+                  <li>Listed Company Director Appointments (Hong Kong and Singapore)</li>
+                </ul></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/team/greg.jpg"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Greg Hansen</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Financial Advisor</h6>
+              <p class="card-text text-white">
+                Founder, Investor and Advisor to the CEO of Elite Tech HK/Envisage<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="card-body bg-dark">
+              <p class="text-left"><small class="card-text">Founder, Investor and Advisor to the CEO of Elite Tech HK/Envisage. Envisage is Southeast Asia's prime data and visual analysis social enterprise for conflict and social reform. Mr. Greg Hansen’s previous experience is in Corporate Finance and Merchant Banking, Governmental Affairs and International Trade. Mr. Hansen has been working with ENVISAGE for the past 5 years. He leads the organization’s work in visualizing complex relationships in the business and economic sectors. He has spent most of his career as an investor, focused on advising companies in financial structuring for listings on the Hong Kong Stock Exchange. In 1999 he was a founder, with the former President of Microsoft Asia, in the FXA Group of Companies in Hong Kong. FXA is a IBM Solutions partner and global provider of food traceability software solutions. Prior he was also the Chief of Staff to the Deputy Premier, Ministers of Justice, Solicitor General, Government Reorganization and Intergovernmental Affairs of Alberta from January, 1992 until August, 1995. Greg has been an independent non-executive board member Public Companies in Canada and Private Companies in Hong Kong.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/team/tso.jpg"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Timothy Tso</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Financial Advisor</h6>
+              <p class="card-text text-white">
+                Mr. Tso has extensive experience over the past decade investing in various <br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="card-body bg-dark">
+              <p class="text-left"><small class="card-text">Mr. Tso has extensive experience over the past decade investing in various businesses and sectors, including food and beverage, security trading and real estate in Hong Kong and overseas such as Spain, Belgium, France and the PRC. He also participated in a few pre-IPO investments in the initial public offering of companies on the stock exchange of Hong Kong. Besides, he involved in a number of corporate financing activities as well. His recent investments focus on fast-growing technology, transportation and consumer services sectors, which are emerging new economy growth drivers. With a vision to develop a sustainable, integrated and prosperous business practice, he has achieved a business ecosystem with global platform and local leverage.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+    </div>
+    <div class="card-deck">
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/chan.png"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Jonathan Chan</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Strategic and Financial Advisor</h6>
+              <p class="card-text text-white">
+                Jonathan is 30-year Banking Veteran. In 1987 began career in Corporate<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back bg-dark">
+            <div class="card-body">
+              <small class="card-text text-left pl-2">
+                Jonathan is 30-year Banking Veteran.
+                <ul class="text-left pl-2">
+                  <li>In 1987 began career in Corporate Banking at MERCANTILE BANK (St Louis).</li>
+                  <li>1988-1994: Vice President, SUMITOMO BANK (Los Angeles).</li>
+                  <li>1994-1999: Director of M&A, CABLE & WIRELESS & BRITISH TELECOM.</li>
+                  <li>1999-2002: Head of Tech Investment Banking Asia, SALOMON BROTHERS/CITIBANK.</li>
+                  <li>2002-2005: Founded VICKERS ADVISORY PARTNERS (now VICKERS VENTURES).</li>
+                  <li>2005-2007: Head of Investment Banking South-East Asia, CLSA (now part of CITIC).</li>
+                  <li>Founded VIGILANT ASSETS Managing Partner in 2007, currently advising and investing in blockchain initiatives.</li>
+                  <li>Founded JULES CORPORATION in 2015, an Education Software Technology Company (“EdTech”) focusing on teaching Digital Literacy to pre-school children.</li>
+                  <li>BSc. Finance, Indiana University Kelly School of Business, 1986.</li>
+                  <li>MBA, Washington University Olin School of Business, 1988.</li>
+                </ul>
+              </small>
+              <!-- <a href="">
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-img-top member"><img alt="Team member" src="assets/images/advisors/billm.png"/></div>
+            <div class="card-header bg-dark">
+              <h4 class="card-title text-center text-white">Bill Majcher</h4>
+              <h6 class="card-subtitle text-center font-weight-bold text-uppercase text-success">Security and Compliance Advisor</h6>
+              <p class="card-text text-white">
+                Bill Majcher is a highly experienced professional with 35 years combined<br>
+                <button class="btn btn-success mt-2">Read more</button>
+              </p>
+            </div>
+          </div>
+          <div class="flip-card-back bg-dark">
+            <div class="card-body">
+                <small class="card-text">
+                  Bill Majcher is a highly experienced professional with 35 years combined experience in public service, international finance, and capital markets.
+                <ul class="text-left pl-2">
+                  <li>Mr. Majcher started his career as a Eurobond trader in London, England. He later used this experience over a 23 year career with the Royal Canadian Mounted Police (RCMP), where Mr. Majcher enjoyed remarkable success in covert and public market investigations that often saw him working with law enforcement, intelligence, and securities regulators from around the globe.</li>
+                  <li>Mr. Majcher has experience as a Futures and Options broker and trader in both Canada and the United States and has lectured extensively on abuse within the international capital markets, including sophisticated money laundering.</li>
+                  <li>Mr. Majcher is recognized as an expert on money laundering in the United States Federal Court for the Southern District of Florida and the Supreme Court of British Columbia and the Ontario Superior Court of Justice.</li>
+                  <li>Today Mr. Majcher is Co-Founder of EMIDR Limited, a highly specialised Corporate Risk Advisory focused on Asset Recovery and Cyber Security.</li>
+                  <li>EMIDR works closely with various Governments concerned with Financial Crime, Money Laundering, and Tax Evasion</li>
+                </ul>
+              </small>
+              <!-- <a href="">
+                <i class="fab fa-2x fa-linkedin"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+  <nav class="navbar-dark bg-dark">
+    <div class="text-center">
+      <a href="https://t.me/tfc_official" target="_blank" class="text-white social"><i class="fab fa-2x fa-telegram py-3 px-2"></i></a>
+      <a href="https://twitter.com/thefutbolapp" target="_blank" class="text-white social"><i class="fab fa-2x fa-twitter py-3 px-2"></i></a>
+      <a href="https://www.facebook.com/thefutbolapp" target="_blank" class="text-white social"><i class="fab fa-2x fa-facebook py-3 px-2"></i></a>
+    </div>
+    <div class="text-center">
+      <a href="https://itunes.apple.com/us/app/pandahaus-futbol/id1181075570?mt=8" style="display: inline;border: none;background: none;">
+        <img alt="appstore" src="assets/images/app-store.png" width="160" style="margin-left:20px;">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=cy.axiasoft.android.football.pandahaus" style="display: inline;border: none;background: none;">
+        <img alt="google-play" src="assets/images/google-play.png" width="160">
+      </a>
+    </div>
+    <div class="text-center text-white py-4">
+        Copyright ©<span id="copyright"></span> <a href="mailto:steve@pandahaus.com" class="text-success">TheFutbolCoin</a> All Rights Reserved
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="fansModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Why do fans like it?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body px-4">
+          <p>TheFutbolApp by pandaHAUS enables an “app within the app” for each football club that the fan supports. This “app within the app” contains news from many newspaper sources, websites and social sites, and makes reading and commenting on the news easy, fast and fun. Each “app within the app” has a social area similar to instagram and facebook where fans of the club can socially interact with other fans and players from that club.</p>
+          <div class="text-center">
+            <img alt="users" src="assets/images/users.png" class="img-fluid" width="400">
+          </div>
+          <p>All important data for the club (fixtures, live scores, squad, statistics) can be found within the “app within the app” for each club. Each “app within the app” has data interactive discussion rooms and match discussion rooms with predictions leagues and video highlights. And the user can switch between “apps within the app” with a single click, making it easy and instant to toggle between the four clubs they follow on average. The fan can also see league wide data and news, and live scores for over 6000+ clubs in the live score section of the app. So everything the fan would want is within TheFutbolApp by pandaHAUS, easy to use and fun and engaging.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="coachesModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Why do coaches like it?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>TheFutbolApp implements a secure double factor authentication player-coach discussion room within the app with additional benefit of being able to add events (next match, practice time and location, travel instructions).</p>
+          <div class="text-center">
+            <img alt="" src="assets/images/coaches.png" class="img-fluid" width="400">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="playersModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Why do players like it?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>All fans auto follow ALL players from the club in the social area of each Club within TheFutbolApp. And existing instagram accounts can be auto fed into the app, so they do not have to post content twice.</p>
+
+          <div class="text-center">
+            <img alt="" src="assets/images/players.png" class="img-fluid" width="400">
+          </div>
+
+          <p>TheFutbolApp by pandaHAUS also brings the semi-pro players into the spotlight by letting them list themselves in the app and add video highlights, accomplishments and statistics.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="clubsModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Why do clubs like it?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>With TheFutbolApp by pandaHAUS partner program, Clubs promote the app to their fans in exchange for administrative rights to their “app within the app” and also get an allocation of free ad space that they can sell to their large advertisers.</p>
+
+          <div class="text-center">
+            <img alt="" src="assets/images/clubs.png" class="img-fluid" width="400">
+          </div>
+
+          <p>For semi-pro and recreational clubs TheFutbolApp by pandaHAUS provides an easy to use interface for adding live scores from mobile during the match and adding video highlights direct from phone from people at the match (parents, friends or coaches). These live scores appear in the live score section of the app, giving the club visibility and providing native notifications of goals and events to people who follow the club (parents, relatives, friends, players from other teams in the league that are interested in the outcome of games in their league).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="advertisersModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            Why do advertisers like it?
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>TheFutbolApp by pandaHAUS lets large advertisers reach fans of specific football clubs in specific geographies with clickable banners, instagram style autoplaying video ads with “Shop now” or “Learn more” buttons, and much more.</p>
+
+          <div class="text-center">
+            <img alt="" src="assets/images/advertisers.png" class="img-fluid" width="400">
+          </div>
+
+          <p>TheFutbolApp by pandaHAUS has small business advertising packages that are affordable and which reach the desired audience in the desired geography. The system is turnkey and easy to use, so the small business can simply place a banner ad from the web using their credit card to pay in minutes and see simple play reports within the app and on the web via our reporting console.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mailchimpModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="assets/js/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+</body>
+</html>

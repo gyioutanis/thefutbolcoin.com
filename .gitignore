@@ -1,0 +1,4 @@
+/nbproject/*
+/.htaccess
+/config/config.js
+.idea/*
